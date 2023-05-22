@@ -1,0 +1,18 @@
+# IDE, OS
+.vscode
+.idea
+.DS_Store
+
+# Node modules
+node_modules
+dist/*.js
+dist/*.css
+dist/*.svg
+dist/*.ttf
+
+# Sass files
+
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

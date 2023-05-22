@@ -1,0 +1,17 @@
+{
+  "name": "book_shop",
+  "version": "1.0.0",
+  "description": "Book shop example application.",
+  "main": "switching.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve",
+    "prettier-watch": "onchange \"**/*\" --exclude-path .gitignore -- prettier --write --ignore-unknown {{changed}}",
+    "build:watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.4",
+    "style-loader": "^3.3.3"
+  }
+}
